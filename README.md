@@ -3,7 +3,7 @@
 This repository contains the code for a discord bot which periodically generates usage statistics for plio and sends them to a discord channel.
 
 ## Setup
-1. Copy the `config.example.ini` file to `config.ini` and fill the respective values. The meaning of the sections and parameters can be found in `docs/ENV.md`.
+1. Create a new file named `config.ini` by copying the `config.example.ini` file and fill the respective values. The meaning of the sections and parameters can be found in `docs/ENV.md`.
 2. Set up a virtual environment and install the dependencies
    
     ```bash
