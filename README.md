@@ -22,5 +22,5 @@ To make this script run periodically, there are two options.
 1. Set up a cron job on an EC2 instance
 2. Set up an AWS Lambda function which is trigged to run periodically
 
-Since we already had a EC2 instance for running other cron jobs and the fact that it is a bit painful to make pandas/numpy work
-with Lambda, we have currently gone ahead with 1.
+Since we already had an EC2 instance for running other cron jobs and the fact that it is a bit painful to make pandas/numpy work
+with Lambda, we have currently gone ahead with option 1.
