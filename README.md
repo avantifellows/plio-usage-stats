@@ -1,16 +1,18 @@
-# Plio Usage Statistics Bot
+# Plio Usage Statistics Discord Bot
 
 This repository contains the code for a discord bot which periodically generates usage statistics for plio and sends them to a discord channel.
 
 ## Setup
 1. Copy the `config.example.ini` file to `config.ini` and fill the respective values. The meaning of the sections and parameters can be found in `docs/ENV.md`.
 2. Set up a virtual environment and install the dependencies
+   
     ```bash
     python -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
     ```
 3. Run the script
+
     ```bash
     python lambda_function.py
     ```
