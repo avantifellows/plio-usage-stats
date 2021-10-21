@@ -1,14 +1,14 @@
 from os import getenv
 from datetime import datetime, timedelta
-import psycopg2
 import pandas as pd
 from discord import Webhook, RequestsWebhookAdapter
+import psycopg2
 
 # the time difference (in days) between the start and end dates
 START_DATE_TIME_DELTA = 7
 
 
-def lambda_function():
+def lambda_handler():
     # set the start and end dates
     end_date = datetime.today()
     start_date = end_date - timedelta(days=START_DATE_TIME_DELTA)
@@ -172,4 +172,4 @@ if __name__ == "__main__":
     for section_name in required_sections:
         set_env_variables_from_config(section_name)
 
-    lambda_function()
+    lambda_handler()

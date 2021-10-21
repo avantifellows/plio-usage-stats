@@ -1,2 +1,4 @@
 config.ini
 notebook.ipynb
+package/
+.DS_Store
